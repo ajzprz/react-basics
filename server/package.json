@@ -1,0 +1,23 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ajaya Prajapati",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.3.5",
+    "morgan": "^1.10.0"
+  },
+  "nodemonConfig": {
+    "ext": "js,hbs"
+  }
+}
